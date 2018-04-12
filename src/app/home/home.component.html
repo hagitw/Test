@@ -1,0 +1,15 @@
+<div class="RootCircle" (click)="ClickO()">
+</div>
+
+  <br>
+  <div *ngIf="root!=undefined">
+    <div *ngFor="let c of root.data.children;let i = index">
+      <p [ngClass]="{
+      'ExpandedNode':c.label !='',
+      'NodeWimg':c.label =='folder6'}" (click)="GetImg(i)"></p>
+    </div>
+  </div>
+
+
+<!-->ng-class="$variableToEvaluate ? 'class-if-true' : 'class-if-false'"> ;l
+<!-->

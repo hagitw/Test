@@ -1,0 +1,20 @@
+.RootCircle{
+background: #414141;
+border-radius: 50%;
+outline:5px #414141 double;
+width: 40px;
+height: 40px;
+position: fixed;
+}
+.ExpandedNode
+{
+background-color: #a0a0a0;
+border-radius: 30px;
+width: 40px;
+height: 40px;
+position:relative;
+left: 20%;
+}
+.NodeWimg{     
+background-color: #67b4e7;
+}
